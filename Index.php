@@ -5,7 +5,6 @@
 	$accessToken = "lAEDjEIia8pNod8Ro6T/ZcOa/Wm3FdqMXk1S3fYNCiXiuqs97vIWojZu4HzP46YX2YBIA+tpJGO3Qc5BWN/jLk26fncycSWnPrJ2gPy5j07LvQEnXrCYU7uVFOjMI0oTJSFLsqDsdn5eVvXUF2dJeQdB04t89/1O/w1cDnyilFU=";
 
 
-
 	// ดึงข้อมูลที่ LINE Server ส่งมาทั้งหมด เก็บในตัวแปร $payloads ด้วยประเภทตัวแปร String
 
 	$payloads = file_get_contents("php://input");
